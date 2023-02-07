@@ -1,0 +1,38 @@
+.nav-item .nav-link {
+    text-align: center;
+}
+
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+section {
+    height: 100vh;
+    padding-top: 70px;
+}
+
+
+#carousel {
+    background-color: grey;
+    text-align: center;
+}
+
+img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#lancamento, #eletrico {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+

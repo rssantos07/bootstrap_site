@@ -27,10 +27,7 @@
                             <a href="#eletrico" class="nav-link">Elétricos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#usado" class="nav-link">Usados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#estrada" class="nav-link">Estrada e Lazer</a>
+                            <a href="#encontros" class="nav-link">Encontros</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,7 +52,19 @@
             <div class="carousel-item">
                 <img class="w-100" src="./image/porsche.jpg" alt="">
             </div>
-
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+            </div>
         </div>
     </div>
 
@@ -65,7 +74,7 @@
         <div data-bs-spy="scroll" data-bs-target="#cabecalho">
             <section>
                 <div class="row">
-                    <div id="lancamento">
+                    <div class="titulo" id="lancamento">
                         <h2>Lançamentos</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 ">
@@ -114,7 +123,7 @@
                             </div>
                         </article>
                     </div>
-                    <div  id="eletrico">
+                    <div class="titulo" id="eletrico">
                         <h2>Elétricos</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 ">
@@ -131,7 +140,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <article class="card text p-3">
-                            <img src="./image/bmwix7.jpeg" alt="novo vw virtus">
+                            <img src="./image/bmwix7.jpeg" alt="nbmw eletrica">
                             <div class="card-text">
                                 <h4 class="card-title">Veja os 10 carros elétricos com maior autonomia do Brasil, segundo o Inmetro</h4>
                                 <p class="card-text">
@@ -143,9 +152,9 @@
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <article class="card text p-3">
-                            <img src="./image/volkswagen-polo.jpg" alt="novo vw virtus">
+                            <img src="./image/Kwid-E-Tech.jpg" alt="novo vw virtus">
                             <div class="card-text">
-                                <h4 class="card-title  p-2 ">Novo HRV 2023</h4>
+                                <h4 class="card-title  p-2 ">Quanto custa o seguro dos dez carros elétricos mais vendidos do Brasil?</h4>
                                 <p class="card-text">
                                     Depois de anunciar um investimento de R$ 7 bilhões, a Volkswagen confirmou o
                                     lançamento do Polo Track 2023.
@@ -157,19 +166,28 @@
                             </div>
                         </article>
                     </div>
+                    <div class="titulo" id="encontros">
+                        <h2>Encontros</h2>
+                    </div>
+                    <div class="col-sm-12">
+                        <article class="card text p-3">
+                            <img src="./image/usados.jpg" alt="volvo c40 recharge">
+                            <div class="card-text">
+                                <h4 class="card-title">Carros Antigos</h4>
+                                <p class="card-text">
+                                   Encontro em Guararema de carros antigos. Partida de Guarulhos viajando pela Ayrton Senna.
+                                   Estavamos em 7 carros nesse dia ensolarado, alguns carros turbinados e outros com motorização original.
+                                   Mas sempre respeitando as leis de transito.
+                                </p>
+                                <a href="#" class="btn btn-primary ">Saiba mais +</a>
+                            </div>
+                        </article>
+                    </div>
+                    
                 </div>
             </section>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
